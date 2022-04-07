@@ -1,0 +1,100 @@
+:root{
+    --Soft-blue: hsl(215, 51%, 70%);
+
+    --Cyan: hsl(178, 100%, 50%);
+
+    --Very-dark-blue-main-BG: hsl(217, 54%, 11%);
+
+    --Very-dark-blue-card-BG: hsl(216, 50%, 16%);
+
+    --Very-dark-blue-line: hsl(215, 32%, 27%);
+
+    --White: hsl(0, 0%, 100%);
+
+    --Name-status-Font-size: 18px;
+}
+body,html{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+
+}
+body{
+    background: var(--Very-dark-blue-main-BG);
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.CARTA{
+    width: 85%;
+    margin: 0 auto;
+   background: var(--Very-dark-blue-card-BG);
+   border-radius: 10px;
+
+}
+.CARTA-TOP{
+    display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 20px;
+
+}
+.CARTA-TOP img{
+    max-width: 80%;
+    border-radius: 10px;
+}
+.CARTA-BOTTON-PARRAFO p:nth-child(1){
+    color: var(--White);
+
+}
+.CARTA-BOTTON-PARRAFO p:nth-child(2){
+    color: var(--Soft-blue);
+    font-size: 13px;
+ 
+}
+.LETRA1 span{
+    color: var(--Cyan);
+}
+.LETRA2 span{
+    color:var(--Soft-blue);
+}
+.CARTA-BOTTON-TIEMPO {
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+.CARTA-BOTTON-ABAJO img {
+    max-width: 15%;
+    border-radius: 50%;
+    border: 1px solid var(--White);
+}
+.CARTA-BOTTON{
+    padding: 0 20px 20px;
+
+}
+.CARTA-BOTTON-ABAJO {
+    display: flex;
+
+   align-items: center;
+padding-top: 15px;
+border-top: 1px solid var(--Very-dark-blue-line);
+}
+.LETRAS span:nth-child(1){
+    color: var(--Soft-blue);
+    margin-left: 10px;
+}
+.LETRAS span:nth-child(2){
+    color: var(--White);
+}
+
+
+
+
+
+
+
+
+
+
