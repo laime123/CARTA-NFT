@@ -106,4 +106,6 @@ opacity: 1;
 
 
 
-
+.LETRAS span:nth-child(2):hover{
+    color: var(--Cyan);
+}
