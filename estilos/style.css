@@ -24,14 +24,18 @@ body{
 height: 100vh;
 display: flex;
 flex-direction: column;
-justify-content: center;
+justify-content: flex-start;
+align-items: center;
 }
-
+.Container{
+    margin-bottom: 10px;
+}
 .CARTA{
     width: 80%;
     margin: 0 auto;
    background: var(--Very-dark-blue-card-BG);
    border-radius: 10px;
+   margin-bottom: 10px;
 
 }
 .CARTA-TOP{
