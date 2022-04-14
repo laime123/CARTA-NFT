@@ -28,7 +28,7 @@ justify-content: center;
 }
 
 .CARTA{
-    width: 18%;
+    width: 80%;
     margin: 0 auto;
    background: var(--Very-dark-blue-card-BG);
    border-radius: 10px;
